@@ -475,6 +475,21 @@ h3 {
   line-height: 1.75;
 }
 
+/* ── IMAGE WRAP ── */
+.img-wrap {
+  overflow: hidden;
+}
+.img-wrap.portrait {
+  aspect-ratio: 3 / 4;
+}
+.img-wrap img,
+.img-wrap video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* ── VISUAL GRID ── */
 .visual-grid {
   display: grid;
